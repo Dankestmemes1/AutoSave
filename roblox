@@ -9,6 +9,5 @@ game.Players.LocalPlayer:Kick("No Exploiting     ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ�
 
 end
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Dankestmemes1/Yba/main/script"))()
 
-end
+
