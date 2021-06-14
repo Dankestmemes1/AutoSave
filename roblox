@@ -60,7 +60,16 @@ gameSettings.PerformanceStatsVisibleChanged:Connect(function(bool)
     end
 end);
 
+if game.PlaceId == 2809202155 then
+
 game.Players.LocalPlayer:Kick("No Exploiting     ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ               #Alt account found")
+
+    
+
+
+
+end
+
 
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dankestmemes1/Yba/main/script"))()
