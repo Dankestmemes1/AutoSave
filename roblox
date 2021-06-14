@@ -1,13 +1,6 @@
-_G.Getbanned = true
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dankestmemes1/Yba/main/script"))()
 
 
-if game.PlaceId == 2809202155 then
 
-game.Players.LocalPlayer:Kick("No Exploiting     ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ               #Alt account found")
-
-end
-
-
-
+game.Players.LocalPlayer:Kick("No Exploiting     ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ               ")
