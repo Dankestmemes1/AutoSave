@@ -2,7 +2,7 @@
     
     
     
-    
+    game.StarterGui:SetCore("SendNotification", {
     Title = "Friend Request";
         Text = "A Gay Nigga Sent you a friend request accept";
         Icon = "";
