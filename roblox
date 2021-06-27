@@ -1,9 +1,31 @@
-  wait(10)
+  --//Vars\\--
+  local StartScript = 10
+  local AvgWait = 5
+  local MainWait = 35
+  
+  
+  
+  --//Script\\--
+  
+  wait(StartScript)
   
   
    game.StarterGui:SetCore("SendNotification", {
-    Title = "Friend Request";
-        Text = "Ninja";
+        Title = "Friend Request";
+        Text = "Ninja sent you a friend request";
+        Icon = "";
+        Duration = "15";
+        callback = bindableFunction;
+        Button1 = "Accept";
+        Button2 = "Decline";
+    
+    })
+
+    wait(AvgWait)
+    
+     game.StarterGui:SetCore("SendNotification", {
+        Title = "Friend Request";
+        Text = "A gay nigga sent you a friend request";
         Icon = "";
         Duration = "15";
         callback = bindableFunction;
@@ -13,14 +35,26 @@
     })
  
  while wait(35) do
- 
-
-    
     
     
   game.StarterGui:SetCore("SendNotification", {
-    Title = "Friend Request";
-        Text = "A Gay Nigga Sent you a friend request";
+        Title = "Friend Request";
+        Text = "Ninja Sent you a friend request";
+        Icon = "";
+        Duration = "15";
+        callback = bindableFunction;
+        Button1 = "Accept";
+        Button2 = "Decline";
+        
+        })
+    
+    
+    wait(5)
+    
+    
+     game.StarterGui:SetCore("SendNotification", {
+        Title = "Friend Request";
+        Text = "A gay nigga sent you a friend request";
         Icon = "";
         Duration = "15";
         callback = bindableFunction;
@@ -28,5 +62,8 @@
         Button2 = "Decline";
     
     })
-end
 
+
+    wait(5)
+    
+end
