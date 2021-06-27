@@ -34,7 +34,7 @@
     
     })
  
- while wait(35) do
+ while wait(MainWait) do
     
     
   game.StarterGui:SetCore("SendNotification", {
@@ -49,7 +49,7 @@
         })
     
     
-    wait(5)
+    wait(AvgWait)
     
     
      game.StarterGui:SetCore("SendNotification", {
@@ -64,6 +64,6 @@
     })
 
 
-    wait(5)
+    wait(AvgWait)
     
 end
