@@ -1,4 +1,19 @@
-    Wait(5)
+  wait(10)
+  
+  
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "Friend Request";
+        Text = "A Gay Nigga Sent you a friend request";
+        Icon = "";
+        Duration = "15";
+        callbakc = bindableFunction;
+        Button1 = "Accept";
+    
+    })
+ 
+ while wait(35) do
+ 
+
     
     
     
@@ -11,3 +26,5 @@
         Button1 = "Accept";
     
     })
+end
+
