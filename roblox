@@ -1,13 +1,14 @@
   wait(10)
   
   
-    game.StarterGui:SetCore("SendNotification", {
+   game.StarterGui:SetCore("SendNotification", {
     Title = "Friend Request";
         Text = "A Gay Nigga Sent you a friend request";
         Icon = "";
         Duration = "15";
-        callbakc = bindableFunction;
+        callback = bindableFunction;
         Button1 = "Accept";
+        Button2 = "Decline";
     
     })
  
@@ -17,13 +18,14 @@
     
     
     
-    game.StarterGui:SetCore("SendNotification", {
+  game.StarterGui:SetCore("SendNotification", {
     Title = "Friend Request";
         Text = "A Gay Nigga Sent you a friend request";
         Icon = "";
         Duration = "15";
-        callbakc = bindableFunction;
+        callback = bindableFunction;
         Button1 = "Accept";
+        Button2 = "Decline";
     
     })
 end
