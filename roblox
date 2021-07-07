@@ -25,7 +25,7 @@
     
      game.StarterGui:SetCore("SendNotification", {
         Title = "Friend Request";
-        Text = "A gay nigga sent you a friend request";
+        Text = "A sad nigga sent you a friend request";
         Icon = "";
         Duration = "15";
         callback = bindableFunction;
